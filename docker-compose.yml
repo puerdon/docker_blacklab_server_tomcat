@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  blacklab-server:
+    build:
+      context: .
+    ports:
+      - "8887:8080"
+    volumes:
+      - ./indexes:/data/blacklab/indexes
