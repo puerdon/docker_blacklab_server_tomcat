@@ -7,4 +7,4 @@ services:
     ports:
       - "8887:8080"
     volumes:
-      - ./indexes:/data/blacklab/indexes
+      - ${INDEX_PATH}:/data/blacklab/indexes
